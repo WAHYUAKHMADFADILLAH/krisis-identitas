@@ -705,7 +705,7 @@ footer a {
     top: 0;
     right: -100%;
     width: 20%;
-    height: 100vh;
+    height: 50vh;
     background-color: var(--primary-color);
     display: flex;
     max-height: 80vh;
