@@ -748,6 +748,10 @@ footer a {
   .about-values {
     grid-template-columns: 1fr;
   }
+  .quiz {
+    margin: auto;
+    padding: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
