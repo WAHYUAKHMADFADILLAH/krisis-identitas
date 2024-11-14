@@ -1,0 +1,5 @@
+saya sudah mempunyai 4 section:
+1. hero
+2. Keypoint
+3. about
+4. contact
