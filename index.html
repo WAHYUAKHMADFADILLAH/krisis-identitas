@@ -28,8 +28,8 @@
 
       <div class="navbar-nav">
         <a href="#home">Home</a>
+        <a href="#quiz-container">Quiz</a>
         <a href="#about">About</a>
-        <a href="#program">program</a>
         <a href="#contact">Contact</a>
       </div>
 
@@ -47,27 +47,45 @@
           "Pahami, eksplorasi, dan kenali siapa kamu sesungguhnya. Ambil langkah
           pertamamu di sini."
         </p>
-        <a href="https://wa.me/6285157739978" class="cta" target="_blank"
+        <a href="quiz-container" class="cta"
           >Mulailah Petualangan Mencari Diri</a
         >
       </main>
     </section>
     <!-- HERO SECTION END -->
-
     <!-- QUIZ SECTION START -->
 
     <section class="quiz" id="quiz-container">
       <h1>Kuis Identitas Diri</h1>
 
+      <!-- Container untuk pertanyaan -->
       <div id="question-container">
         <span id="question"></span>
       </div>
 
-      <div id="answer-buttons" class="btn-container"></div>
-
+      <!-- Container untuk jawaban -->
+      <!-- Tombol jawaban -->
+      <div id="answer-buttons" class="btn-container">
+        <button class="btn answer-btn">Jawaban 1</button>
+        <button class="btn answer-btn">Jawaban 2</button>
+        <button class="btn answer-btn">Jawaban 3</button>
+        <button class="btn answer-btn">Jawaban 4</button>
+      </div>
+      <!-- Tombol untuk melanjutkan ke pertanyaan berikutnya -->
       <button id="next-button" class="btn" style="display: none">
         Berikutnya
       </button>
+    </section>
+
+    <!-- Container untuk menampilkan hasil akhir dan refleksi -->
+    <section id="result-container" style="display: none">
+      <h2>Hasil Kuis Anda</h2>
+      <div id="result"></div>
+      <h3>Refleksi Berdasarkan Jawaban Anda:</h3>
+      <div id="reflection"></div>
+
+      <!-- Tombol untuk memulai ulang kuis -->
+      <button id="restart-button" class="btn">Mulai Lagi</button>
     </section>
 
     <!-- QUIZ SECTION END -->
