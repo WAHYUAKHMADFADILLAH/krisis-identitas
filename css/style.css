@@ -704,7 +704,7 @@ footer a {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 50%;
+    width: 20%;
     height: 100vh;
     background-color: var(--primary-color);
     display: flex;
