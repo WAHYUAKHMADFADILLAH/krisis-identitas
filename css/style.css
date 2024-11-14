@@ -704,10 +704,11 @@ footer a {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 100%;
+    width: 50%;
     height: 100vh;
     background-color: var(--primary-color);
     display: flex;
+    max-height: 80vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -728,7 +729,7 @@ footer a {
   }
 
   /* Hero Section */
-  .hero{
+  .hero {
     padding-top: 10%;
   }
   .hero .content h1 {
@@ -750,7 +751,7 @@ footer a {
 }
 
 @media screen and (max-width: 480px) {
-  .hero{
+  .hero {
     padding-top: 20%;
   }
   .hero .content h1 {
